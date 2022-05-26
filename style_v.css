@@ -1,0 +1,40 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	list-style: none;
+	margin-top: 25px;
+
+}
+ul li{
+	float: left;
+	margin-right: 5px;
+}
+ul a{
+	text-decoration: none;
+	background: lightblue;
+	color: black;
+	padding: 10px;
+	font-family: arial;
+	border-radius: 4px;
+	display: block;
+	border-right: 1px solid red;	
+}	
+ul li a:hover{
+	background-color: blue;
+	transition: 1.5s linear;
+} 
+li > ul{
+	position: absolute;
+	top: 25px;
+	display: none;
+}
+li:hover > ul{
+	display: block;
+	width: 170px;
+}
+li:hover > ul > li{
+	float: none;
+
+}
